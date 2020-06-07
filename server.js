@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const port = 8081;
+const port = process.env.PORT || 8081;
 const app = new express();
 YAML = require('yamljs');
 
